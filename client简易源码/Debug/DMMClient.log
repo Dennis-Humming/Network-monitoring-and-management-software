@@ -1,0 +1,42 @@
+﻿生成启动时间为 2021/12/30 15:14:51。
+     1>项目“C:\Users\Dennis\Desktop\新建文件夹\client简易源码\DMMClient.vcxproj”在节点 2 上(build 个目标)。
+       项目文件包含 ToolsVersion="15.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>InitializeBuildStatus:
+         正在对“Debug\DMMClient.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         D:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DMMClient.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DMMClientDlg.cpp
+         DMMClientDlg.cpp
+     1>c:\users\dennis\desktop\新建文件夹\client简易源码\dmmclientdlg.cpp(418): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\dennis\desktop\新建文件夹\client简易源码\dmmclientdlg.cpp(423): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\dennis\desktop\新建文件夹\client简易源码\dmmclientdlg.cpp(715): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(110) : 参见“strcat”的声明
+     1>c:\users\dennis\desktop\新建文件夹\client简易源码\dmmclientdlg.cpp(949): warning C4551: 缺少参数列表的函数调用
+     1>d:\vs2010\vc\include\xmemory(208): error C2664: “ProcessInfo::ProcessInfo(const ProcessInfo &)”: 不能将参数 1 从“bool”转换为“const ProcessInfo &”
+                 原因如下: 无法从“bool”转换为“const ProcessInfo”
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+                 d:\vs2010\vc\include\xmemory(280): 参见对正在编译的函数 模板 实例化“void std::allocator<_Ty>::construct<bool>(ProcessInfo *,_Other &&)”的引用
+                 with
+                 [
+                     _Ty=ProcessInfo,
+                     _Other=bool
+                 ]
+                 d:\vs2010\vc\include\vector(668): 参见对正在编译的函数 模板 实例化“void std::_Cons_val<std::allocator<_Ty>,ProcessInfo,bool>(_Alloc &,_Ty1 *,_Ty2 &&)”的引用
+                 with
+                 [
+                     _Ty=ProcessInfo,
+                     _Alloc=std::allocator<ProcessInfo>,
+                     _Ty1=ProcessInfo,
+                     _Ty2=bool
+                 ]
+                 c:\users\dennis\desktop\新建文件夹\client简易源码\dmmclientdlg.cpp(675): 参见对正在编译的函数 模板 实例化“void std::vector<_Ty>::emplace_back<bool>(_Valty &&)”的引用
+                 with
+                 [
+                     _Ty=ProcessInfo,
+                     _Valty=bool
+                 ]
+     1>已完成生成项目“C:\Users\Dennis\Desktop\新建文件夹\client简易源码\DMMClient.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.90

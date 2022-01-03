@@ -1,0 +1,28 @@
+﻿生成启动时间为 2021/12/30 14:42:42。
+     1>项目“C:\Users\Dennis\Desktop\新建文件夹\server简易源码\DMMserver.vcxproj”在节点 2 上(build 个目标)。
+       项目文件包含 ToolsVersion="15.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>InitializeBuildStatus:
+         正在对“Debug\DMMserver.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         D:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DMMserver.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DMMserver.cpp DMMserverDlg.cpp m_SEE.cpp
+         DMMserverDlg.cpp
+     1>c:\users\dennis\desktop\新建文件夹\server简易源码\dmmserverdlg.cpp(314): error C2059: 语法错误:“{”
+     1>c:\users\dennis\desktop\新建文件夹\server简易源码\dmmserverdlg.cpp(314): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>c:\users\dennis\desktop\新建文件夹\server简易源码\dmmserverdlg.cpp(314): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>c:\users\dennis\desktop\新建文件夹\server简易源码\dmmserverdlg.cpp(338): error C2059: 语法错误:“{”
+     1>c:\users\dennis\desktop\新建文件夹\server简易源码\dmmserverdlg.cpp(338): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>c:\users\dennis\desktop\新建文件夹\server简易源码\dmmserverdlg.cpp(338): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>c:\users\dennis\desktop\新建文件夹\server简易源码\dmmserverdlg.cpp(527): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+         正在生成代码...
+         正在编译...
+         DMMserver.cpp
+         正在生成代码...
+         正在编译...
+         m_SEE.cpp
+         正在生成代码...
+     1>已完成生成项目“C:\Users\Dennis\Desktop\新建文件夹\server简易源码\DMMserver.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.83
